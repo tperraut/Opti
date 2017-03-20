@@ -1,0 +1,41 @@
+
+Log started (V12.6.3.0) Thu Mar  2 16:11:40 2017
+
+
+Problem '11ex.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Maximize
+ Objectif: x1 + x2
+Subject To
+ sc1: x1 + x2 <= 4
+ sc2: x1 - x2 >= 5
+Bounds
+ All variables are >= 0.
+Implied bounds make row 'sc2' infeasible.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.26 ticks/sec)
+
+Problem '21ex.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Primal unbounded due to dual bounds, variable 'x2'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Unbounded or infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.33 ticks/sec)
+
+Problem '21ex.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Maximize
+ Objectif: - x1 + 3 x2
+Subject To
+ sc1: x1 - x2 <= 4
+ sc2: x1 + 2 x2 >= 4
+Bounds
+ All variables are >= 0.
+Primal unbounded due to dual bounds, variable 'x2'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Unbounded or infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.33 ticks/sec)
